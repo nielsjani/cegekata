@@ -1,0 +1,49 @@
+<table class="question-content">
+  <tr>
+    <td class="top-row-first">Input</td>
+    <td class="top-row">3</td>
+    <td class="top-row"><</td>
+    <td class="top-row">4</td>
+    <td class="top-row"><</td>
+    <td class="top-row">?</td>
+    <td class="top-row"><</td>
+    <td class="top-row">?</td>
+    <td class="top-row"><</td>
+    <td class="top-row">?</td>
+    <td class="top-row"><</td>
+    <td class="top-row">?</td>
+    <td class="top-row"><</td>
+    <td class="top-row">?</td>
+    <td class="top-row"><</td>
+    <td class="top-row">?</td>
+    <td class="top-row"><</td>
+    <td class="top-row to-solve">???</td>
+  </tr>
+  <tr>
+    <td class="bottom-row-first">Output</td>
+    <td class="bottom-row">Fizz</td>
+    <td class="bottom-row"></td>
+    <td class="bottom-row">Buzz</td>
+    <td class="bottom-row"></td>
+    <td class="bottom-row">FizzBuzz</td>
+    <td class="bottom-row"></td>
+    <td class="bottom-row">Fizz</td>
+    <td class="bottom-row"></td>
+    <td class="bottom-row">Buzz</td>
+    <td class="bottom-row"></td>
+    <td class="bottom-row">FizzBuzz</td>
+    <td class="bottom-row"></td>
+    <td class="bottom-row">FizzBuzz</td>
+    <td class="bottom-row"></td>
+    <td class="bottom-row">Buzz</td>
+    <td class="bottom-row"></td>
+    <td class="bottom-row">Fizz</td>
+  </tr>
+</table>
+
+<div class="answer-content">
+  <p>Smallest possible value of final input</p>
+  <input type="text" [(ngModel)]="answer">
+  <a (click)="checkAnswer()" class="submit-answer">&#8680;</a>
+  <a *ngIf="answeredWrong" class="answer-wrong">&#9760;</a>
+</div>

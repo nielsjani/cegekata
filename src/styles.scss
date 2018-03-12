@@ -1,0 +1,27 @@
+$text-color: #DFDCE3;
+body {
+  background-color: #4ABDAC;
+  color: $text-color;
+  font-family: "Lucida Console", cursive;
+}
+
+.question-content {
+  width: 90%;
+  margin: auto;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.answer-content {
+  width: 50%;
+  margin: 2% auto auto;
+  background-color: #FC4A1A;
+  font-size: 150%;
+  color: $text-color;
+  padding: 1%;
+  border: 2px solid #{$text-color};
+  text-align: center;
+  border-radius: 25px;
+}

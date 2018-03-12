@@ -1,0 +1,62 @@
+@import "../../styles";
+
+$table-font-size: 120%;
+$table-border: 3px solid #{$text-color};
+
+.top-row-first {
+  font-size: $table-font-size;
+  border-right: $table-border;
+  border-bottom: $table-border;
+}
+
+.top-row {
+  font-size: $table-font-size;
+  border-bottom: $table-border;
+}
+
+.bottom-row-first {
+  font-size: $table-font-size;
+  border-right: $table-border;
+}
+
+.bottom-row {
+  font-size: $table-font-size;
+}
+
+.question-content {
+  td {
+    text-align: center;
+    padding: 1em;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border: $table-border;
+}
+
+.to-solve {
+  color: #F7B733;
+  font-weight: 200;
+  font-size: 150%;
+}
+
+.submit-answer {
+  font-size: 5em;
+}
+
+.submit-answer:hover {
+  cursor: pointer;
+}
+
+input {
+  width: 25%;
+  font-size: 4em;
+  border-radius: 25px;
+}
+
+.answer-wrong {
+  color:yellow;
+  font-size: 5em;
+}
+
